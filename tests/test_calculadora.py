@@ -54,4 +54,5 @@ class TestDividir:
     def test_division_por_cero_lanza_excepcion(self):
         with pytest.raises(ValueError, match="No se puede dividir entre cero"):
             dividir(5, 0)
+   
             
